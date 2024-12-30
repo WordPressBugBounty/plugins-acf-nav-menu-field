@@ -3,9 +3,9 @@
 Contributors: galaxyweblinks
 Tags: Select, ACF Field, Menu, Nav, Sidebar
 Requires at least: 5.8.8 or higher
-Tested up to: 6.6
+Tested up to: 6.7
 Requires PHP: 7.4
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,8 +16,9 @@ ACF Nav Menu field plugin provides an option to show a menu in the front end sim
 
 ACF Nav Menu field provides navigation menu field type in the field groups and displays on posts, pages, users, taxonomy terms, media, comments, and even custom options pages. We can call and display the menu as ACF using the get_field() function.
 
-For any Feedback and Queries please Email us at
-vivek.jha@galaxyweblinks.in
+Here’s a link to the documentation for the plugin. This will help you learn more about its features and how to use it.
+<strong><strong>[Documentation](https://wp-plugins.galaxyweblinks.com/wp-plugins/acf-nav-menu-field/doc/)</strong>
+For any feedback or queries regarding this plugin, please contact our [Support team](https://wp-plugins.galaxyweblinks.com/contact/).
 
 == Installation ==
 
@@ -44,6 +45,9 @@ Follow the below steps:
 
 == Changelog ==
 
+= 1.6 =
+Stable Release
+
 = 1.5 =
 Stable Release
 
@@ -63,6 +67,9 @@ Issue fixes
 First Stable Release
 
 == Upgrade Notice == 
+
+= 1.6 =
+Stable Release
 
 = 1.5 =
 Stable Release

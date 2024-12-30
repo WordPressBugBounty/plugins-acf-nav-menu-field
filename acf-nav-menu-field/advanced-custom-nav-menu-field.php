@@ -3,7 +3,7 @@
    Plugin Name: ACF Nav Menu Field
    Plugin URI: https://wordpress.org/plugins/acf-nav-menu/
    description: This plugin creates the Nav Menu option into the ACF field type through that we can choose and use the menu to display.
-   Version: 1.5
+   Version: 1.6
    Author: Galaxy Weblinks
    Author URI: https://www.galaxyweblinks.com/
    License: GPL2
@@ -85,3 +85,19 @@ function acnmf_enqueue_style() {
  	wp_enqueue_style( 'acnmf-backend', ACNMF.'includes/assets/css/acnmf-backend.css');
 }
 add_action( 'admin_enqueue_scripts', 'acnmf_enqueue_style' );
+
+/**
+ * You can use these filters to add custom links to your plugin row in the plugin list.
+ * @param $links, $file
+ * @return $links [array]
+ */
+function acnmf_add_custom_plugin_links($links, $file)
+{
+	if ($file === 'acf-nav-menu-field/advanced-custom-nav-menu-field.php') {
+		$links[] = '<a href="https://wp-plugins.galaxyweblinks.com/wp-plugins/acf-nav-menu-field/doc/" target="_blank">Documentation</a>';
+		$links[] = '<a href="https://wp-plugins.galaxyweblinks.com/contact/" target="_blank">Contact Support</a>';
+	}
+	return $links;
+}
+
+add_filter('plugin_row_meta', 'acnmf_add_custom_plugin_links', 10, 2);
