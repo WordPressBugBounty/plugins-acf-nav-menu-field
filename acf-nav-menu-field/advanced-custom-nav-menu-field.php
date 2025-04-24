@@ -3,7 +3,7 @@
    Plugin Name: ACF Nav Menu Field
    Plugin URI: https://wordpress.org/plugins/acf-nav-menu/
    description: This plugin creates the Nav Menu option into the ACF field type through that we can choose and use the menu to display.
-   Version: 1.6
+   Version: 1.7
    Author: Galaxy Weblinks
    Author URI: https://www.galaxyweblinks.com/
    License: GPL2

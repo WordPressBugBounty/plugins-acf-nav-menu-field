@@ -3,9 +3,9 @@
 Contributors: galaxyweblinks
 Tags: Select, ACF Field, Menu, Nav, Sidebar
 Requires at least: 5.8.8 or higher
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,9 @@ Follow the below steps:
 
 == Changelog ==
 
+= 1.7 =
+Stable Release
+
 = 1.6 =
 Stable Release
 
@@ -67,6 +70,9 @@ Issue fixes
 First Stable Release
 
 == Upgrade Notice == 
+
+= 1.7 =
+Stable Release
 
 = 1.6 =
 Stable Release
